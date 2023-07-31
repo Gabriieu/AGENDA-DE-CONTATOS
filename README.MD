@@ -1,0 +1,2 @@
+## ATENÇÃO
+Cada pasta possui sua própria documentação, para que não haja erros durante a instalação, execute os comandos de instalação na pasta correspondente ao projeto específico (ou seja, na pasta do projeto de front-end para o projeto de front-end e na pasta do projeto de back-end para o projeto de back-end). Certifique-se de seguir as instruções específicas de cada projeto para garantir que todas as dependências e configurações necessárias sejam instaladas corretamente. Isso garantirá o correto funcionamento de ambos os projetos em conjunto.
