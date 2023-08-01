@@ -8,6 +8,7 @@ import { BsPersonAdd } from "react-icons/bs";
 import { LiaUserEditSolid } from "react-icons/lia";
 import { FiLogOut } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx"
+import {TfiClose} from "react-icons/tfi"
 
 export const Header = () => {
   const [createContactModalStatus, setCreateContactModalStatus] =
