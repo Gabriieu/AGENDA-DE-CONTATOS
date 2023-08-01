@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { Input } from "../../components/input";
 import { useContext, useEffect } from "react";
 import { UserContext } from "../../providers/userProvider";
+import { InputPassword } from "../../components/input-password";
 
 export const Login = () => {
   const {
@@ -38,9 +39,8 @@ export const Login = () => {
               placeholder="Digite seu email"
               helperText={errors.email?.message}
             />
-            <Input
+            <InputPassword
               {...register("password")}
-              type="password"
               placeholder="Digite sua senha"
               helperText={errors.password?.message}
             />
