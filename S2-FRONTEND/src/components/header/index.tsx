@@ -7,8 +7,6 @@ import { UserContext } from "../../providers/userProvider";
 import { BsPersonAdd } from "react-icons/bs";
 import { LiaUserEditSolid } from "react-icons/lia";
 import { FiLogOut } from "react-icons/fi";
-import { RiMenuLine, RiMenuUnfoldFill } from "react-icons/ri";
-import { TfiClose } from "react-icons/tfi"
 import { RxHamburgerMenu } from "react-icons/rx"
 
 export const Header = () => {
