@@ -18,7 +18,7 @@ export const Login = () => {
   });
   const navigate = useNavigate();
 
-  const { signIn, user } = useContext(UserContext);
+  const { signIn } = useContext(UserContext);
 
   useEffect(() => {
     const token = localStorage.getItem("token")

@@ -11,10 +11,10 @@ import { useEffect } from "react";
 const schema = z.object({
   full_name: z
     .string()
-    .max(80, {
-      message: "Tamanho máximo do nome não pode exceder 80 caracteres",
+    .max(50, {
+      message: "Tamanho máximo do nome não pode exceder 50 caracteres",
     })
-    .min(8, { message: "O nome deve ter no mínimo 8 caracteres" }),
+    .min(3, { message: "O nome deve ter no mínimo 3 caracteres" }),
   email: z.string().email({ message: "Email inválido" }),
   password: z
     .string()

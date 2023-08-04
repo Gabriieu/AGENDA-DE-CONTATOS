@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 
 const schema = z.object({
   email: z.string().email({ message: "Informe um email válido" }),
-  full_name: z.string().min(7, { message: "Comprimento mínimo 7" }),
+  full_name: z.string().min(3, { message: "Comprimento mínimo 3" }),
   phone: z
     .string()
     .max(11)

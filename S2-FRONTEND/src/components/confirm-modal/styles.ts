@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const ConfirmModalStyle = styled.dialog`
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
   width: 100vw;

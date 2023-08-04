@@ -15,6 +15,14 @@ export const ModalStyled = styled.dialog`
   position: fixed;
   gap: 2rem;
 
+  #modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg{
+      color: red;
+    }
+  }
   #form-btns{
     display: flex;
     flex-direction: row;

@@ -4,6 +4,7 @@ export const InputStyled = styled.input`
   padding: 1rem;
   border-radius: 16px;
   border: 1px solid var(--color-blue-600);
+  margin-top: 8px;
 
   &:focus {
     border-color: green;
@@ -16,6 +17,7 @@ export const ContainerStyled = styled.div`
   #hide-show-icon {
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: relative;
     .icon {
         position: absolute;

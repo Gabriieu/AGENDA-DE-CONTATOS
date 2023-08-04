@@ -8,7 +8,7 @@ export class User {
     @PrimaryGeneratedColumn("increment")
     id: number
 
-    @Column({type: "varchar", length: 80})
+    @Column({type: "varchar", length: 50})
     full_name: string
 
     @Column({type: "varchar", length: 256, unique: true})

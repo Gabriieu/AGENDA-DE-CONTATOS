@@ -14,7 +14,7 @@ type InputProps = InputHTMLAttributes<HTMLInputElement> & {
 
 export const InputPassword = forwardRef<HTMLInputElement, InputProps>(
   ({ name = "", label = "", helperText = "", ...props }, ref) => {
-    const [type, setType] = useState("text");
+    const [type, setType] = useState("password");
 
     const toggleType = () => {
       if (type == "text") {

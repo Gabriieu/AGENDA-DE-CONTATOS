@@ -9,6 +9,7 @@ import { LiaUserEditSolid } from "react-icons/lia";
 import { FiLogOut } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx"
 import {TfiClose} from "react-icons/tfi"
+import { DeleteProfileModal } from "../delete-user-modal";
 
 export const Header = () => {
   const [createContactModalStatus, setCreateContactModalStatus] =
